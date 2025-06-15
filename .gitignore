@@ -1,0 +1,24 @@
+# Git ignore file 
+# DVC cache
+*.dvc
+/.dvc/
+/.dvc/tmp/
+/.dvc/cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+venv/
+myenv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter & logs
+.ipynb_checkpoints/
+*.log
